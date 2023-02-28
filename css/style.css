@@ -152,6 +152,33 @@ a:hover {
   padding: 0;
 }
 
+.box-what-we-do {
+  position: relative;
+}
+
+.box-text {
+  width: 370px;
+  height: 70px;
+  position: absolute;
+  bottom: 4px;
+  background: rgba(47, 48, 58, 0.8);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--main-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service-text {
+  margin: 0;
+}
+
 .list4 {
   list-style-type: none;
   padding: 0;
